@@ -1,0 +1,245 @@
+
+    header{
+        background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(w2.jpg);
+        height: 260vb;
+        background-size: cover;
+        background-position: center;
+        min-height: 1000px;
+    }
+   vl{
+        float: right;
+        list-style-type: none;
+        margin-top: 50px;
+        min-height: 400px;
+        margin-right: 1100px;
+        font-size: 16px;
+    }
+vl li{
+    display: inline-block;
+}
+
+vl li a{
+    text-decoration: none;
+    color: #894908;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.5 ease;
+}
+
+vl li a:hover{
+    background-color:#894908;
+    color: #000;
+}
+vl li a:hover{
+   background-color: #894908;
+   color: #000;
+}
+
+vl li.active a{
+    background-color: #894908;
+    color: #000;
+    text-align: left;
+}
+
+.facebook img{
+    float: left;
+    width: 100px;
+    height: auto;
+    margin-top: 20px;
+    right: 99%;
+}
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.title{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    font-size: 30px;
+    transform: translate(-50%,-50%);
+    color: #fff;
+}
+.title1{
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    font-size: 30px;
+    transform: translate(-50%,-50%);
+    color: #fff;
+}
+
+.title{
+    color: #fff;
+    margin-left: 23%;
+    font-size: 15px;
+    top: 10%;
+
+}
+.title1{
+    color: #fff;
+    margin-left: 23%;
+    font-size: 10px;
+    margin-top: 7%;
+}
+.profile{
+    text-align: left;
+	float: right;
+	 width: 350px;	 
+	  border: 5px solid #894908;
+		margin-top: 10px;
+		border-radius: 50px;
+		margin-left: 100px;
+        position: absolute;
+        top: 20%;
+}
+.profile1{
+    text-align: left;
+	float: right;
+	 width: 200px;	 
+	  border: 5px solid #894908;
+		margin-top: 10px;
+		border-radius: 50px;
+		margin-left: 850px;
+        position: absolute;
+        top: 90%;
+}
+.profile2{
+    text-align: left;
+	float: right;
+	 width: 250px;
+     height: 250px;	 
+	  border: 5px solid #894908;
+		margin-top: 10px;
+		border-radius: 50px;
+		margin-left: 140px;
+        position: absolute;
+        top: 140%;
+}
+.title3{
+    position: absolute;
+    top: 35%;
+    left: 48%;
+    font-size: 30px;
+    transform: translate(-50%,-50%);
+    color: #fff;
+}
+
+.title4{
+    position: absolute;
+    top: 195%;
+    left: 48%;
+    font-size: 30px;
+    transform: translate(-50%,-50%);
+    color: #fff;
+}
+p{
+    position: absolute;
+    top: 40%;
+    left: 38%;
+    right: 20%;
+    font-size: 20px;
+    color: #fff;
+}
+.p1{
+    position: absolute;
+    top: 65%;
+    left: 3%;
+    right: 5%;
+    font-size: 20px;
+    color: #fff;
+}
+.p2{
+    position: absolute;
+    top: 100%;
+    left: -25%;
+    right: 20%;
+    font-size: 20px;
+    color: #fff;
+}
+
+.p3{
+    position: absolute;
+    top: 135%;
+    left: 0%;
+    right: 10%;
+    font-size: 20px;
+    color: #fff;
+}
+
+.p4{
+    position: absolute;
+    top: 160%;
+    left: 0%;
+    right: 10%;
+    font-size: 20px;
+    color: #fff;
+}
+.p6{
+    position: absolute;
+    top: 200%;
+    left: 13%;
+    right: 0%;
+    font-size: 20px;
+    color: #fff;
+}
+.button{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.btn{
+    border: 1px solid #fff;
+    padding: 5px 20px;
+    color: #fff;
+    transition: 0.5 ease;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.btn:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.side {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+    position: absolute;
+    left: 80%;
+    top: 250%;
+	}
+    
+
+    .image {
+	text-align: left;
+	float: left;
+	 width: 50px;	 
+	  border: 5px solid #ececee;
+		margin-top: 30px;
+		border-radius: 300px;
+		margin-left: 1160px;
+        position: absolute;
+        top: 2%;
+    }
+    .vid{
+         text-align: left;
+	float: right;	 
+		margin-top: 10px;
+		margin-left: 100px;
+        position: absolute;
+        top: 200%;
+    
+    }
+    
+    footer {
+        background-image: url(w2.jpg);
+        text-align: center;
+        font-size: 150%;
+        margin-top: 0%;
+    }
